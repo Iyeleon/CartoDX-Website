@@ -5,8 +5,9 @@ import './Carto.css';
 class CartoDx extends Component{
     render(){
         return(
-        <div id='wraps'>
-            <h1> Hello, Welcome to CartoDx Project. A project mapping cities vulnerability to malaria</h1>
+        <div className='f1 tc' id='wraps'>
+            <h1> Hello, Welcome to CartoDx Project. </h1>
+            <h2>A project mapping cities vulnerability to malaria</h2>
         </div> 
         );
     }

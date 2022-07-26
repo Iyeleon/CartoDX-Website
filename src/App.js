@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import React, {Component} from 'react';
+import CartoDx from './Components/Carto';
 
 class App extends Component {
   render(){ 
+    const text1 = 'CartoDx';
+    const text2 = 'Mapping Disease vulnerabilities'
     return (
       <div className="App">
+        <CartoDx lamp={text1}/>
+        <CartoDx lamp={text2}/>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
